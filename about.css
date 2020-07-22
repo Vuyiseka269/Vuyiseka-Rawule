@@ -1,0 +1,175 @@
+body{
+    border: 30px solid rgb(24, 67, 70);
+    height: 3880px;
+
+}
+.header{
+    display:flex;
+    
+
+}
+.logo{
+    width: 900px;
+    height: 500px;
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    font-family: Arial;
+  
+  
+  }
+  
+  ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    align-content: space-around;
+  
+  }
+  ul li a{
+    line-height: 80px;
+    color:  rgb(24, 67, 70);
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    align-content: space-between;
+  }
+  ul li a:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 6px;
+  }
+  
+  ul li a:active{
+    background: rgb(199, 145, 145);
+    color: #fff;
+    border-radius: 6px;
+  }
+.text{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.background{
+    position: relative;
+    top: 50px;
+    right: 850px;
+}
+.body{
+    padding: 50px;
+    margin-top: 0px;
+}
+h1{
+    position: relative;
+    top: 115px;
+    right: 950px;
+    font-size: 20px;
+}
+.image{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color:  rgb(24, 67, 70);
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.service{
+    padding: 20px;
+    color: rgb(24, 67, 70);
+    font-family: sans-serif;
+
+}
+p{
+    font-size: 20px;
+}
+.worker1{
+    padding: 30px;
+}
+.worker2{
+    position: relative;
+    left: 900px;
+    bottom: 660px;
+}
+.worker3{
+    position: relative;
+    bottom: 500px;
+    padding: 30px;
+}
+.worker4{
+    position: relative;
+    bottom: 1080px;
+    left: 580px;
+
+}
+.worker5{
+    position: relative;
+    bottom: 1660px;
+    left: 1100px;
+
+}
+
+.work{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    background-color:  rgb(24, 67, 70);
+    padding: 0;
+    position: relative;
+    bottom: 1350px;
+}
+.fee{
+    background-color:  rgb(53, 97, 100);
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    bottom: 1400px;
+}
+
+.footer{
+    background-color:  rgb(24, 67, 70);
+    color: white;
+    position: relative;
+    bottom: 1300px;
+}
+.hour{
+    position: absolute;
+    left: 400px;
+    bottom: 830px;
+
+}
+.hours{
+    position: absolute;
+    left: 800px;
+    bottom: 870px;
+    
+    
+}
+h5{
+    background-color:  rgb(53, 97, 100);
+    color: whitesmoke;
+    text-align: center;
+}
+.social-media{
+    align-items: center;
+}
+
+@media screen and (min-width: 400px){
+    .feature{
+        background: cornflowerblue;
+    }
+}
+@media screen and (max-width: 800px) {
+    .feature {
+        background: cornsilk;
+    }
+}

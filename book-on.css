@@ -1,0 +1,163 @@
+body{
+    border: 30px solid rgb(24, 67, 70);
+}
+.header{
+    display:flex;
+    
+
+}
+.logo{
+    width: 900px;
+    height: 500px;
+}
+
+  .nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    font-family: Arial;
+  
+  
+  }
+  
+  ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    align-content: space-around;
+  
+  }
+  ul li a{
+    line-height: 80px;
+    color:  rgb(24, 67, 70);
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    align-content: space-between;
+  }
+  ul li a:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 6px;
+  }
+  
+  ul li a:active{
+    background: rgb(199, 145, 145);
+    color: #fff;
+    border-radius: 6px;
+  }
+.text{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.background{
+    position: relative;
+    top: 50px;
+    right: 850px;
+}
+.body{
+    padding: 50px;
+    margin-top: 0px;
+}
+h1{
+    position: relative;
+    top: 115px;
+    right: 950px;
+    font-size: 20px;
+
+    
+}
+.image{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color:  rgb(24, 67, 70);
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.contact{
+  padding: 20px;
+}
+
+.container{
+  max-width: 800px;
+  height: 400px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+  position: relative;
+  right: 360px;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.submit-button{
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+  font-family: 'roboto';
+}
+
+
+.footer{
+    background-color:  rgb(24, 67, 70);
+    color: white;
+}
+.hour{
+    position: absolute;
+    left: 400px;
+    top: 1400px;
+}
+.hours{
+    position: absolute;
+    left: 800px;
+    top: 1400px;
+}
+h5{
+    background-color:  rgb(53, 97, 100);
+    color: whitesmoke;
+    text-align: center;
+}
+.social-media{
+    align-items: center;
+}
